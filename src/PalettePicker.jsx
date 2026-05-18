@@ -496,7 +496,7 @@ export default function PalettePicker() {
               >
                 {copied === "__all__" ? "✓ all numbers copied" : "copy all 5 DMC numbers"}
               </button>
-              <p className="shop-note">find these at Michaels, JoAnn, or dmc.com — search by number</p>
+              <p className="shop-note">find these at your craft store of choice — search by number</p>
               <button className="btn" onClick={() => setStep("email")}>save my palette</button>
               <button className="btn-g" onClick={() => setStep("email")}>just browsing</button>
             </div>
